@@ -12,7 +12,6 @@ import {
   GridComponent,
 } from "echarts/components";
 import VChart, { THEME_KEY } from "vue-echarts";
-console.log(echarts);
 
 echarts.use([
   CanvasRenderer,
