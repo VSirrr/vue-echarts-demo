@@ -2,18 +2,21 @@
   <div id="app">
     <Demo1 />
     <SDMap />
+    <AreaChart />
   </div>
 </template>
 
 <script>
 import Demo1 from "./components/Demo1.vue";
 import SDMap from "./components/SDMap.vue";
+import AreaChart from "./components/AreaChart.vue";
 
 export default {
   name: "App",
   components: {
     Demo1,
     SDMap,
+    AreaChart,
   },
 };
 </script>
